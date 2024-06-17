@@ -31,10 +31,10 @@
                     </div>
                 </div>
                 <div class="body__btn-item i2 PBT2">
-                    <div class="body__btn-item__lbl PBT2">Fanpage Flagup</div>
+                    <div class="body__btn-item__lbl PBT2">Hand Book</div>
                    
                     <div class="body__btn-item__icon PBT2">         
-                        <img src="./source/FACEBOOK.svg" alt="">
+                        <img src="./source/Book.svg" alt="">
                     </div>
                 </div>
                 <div class="body__btn-item i3 PBT3">
@@ -49,10 +49,25 @@
     </div>
 </body>
 <script>
-var button1 = document.getElementsByClassName('something');
-button1.style.cursor = 'pointer';
-something.onclick = function() {
-    window.open("https://www.w3schools.com");
-};
+var button1 = document.getElementsByClassName("PBT1");
+for(i=0;i<button1.length;i++){
+button1[i].style.cursor = 'pointer';
+button1[i].onclick = function() {
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSdpoivliKFJp-rjQOoE1fkNw186xNMiAi4M4ROoBIr8J32rzg/viewform");
+};}
+
+var Button2 = document.getElementsByClassName("PBT2");
+for(i=0;i<Button2.length;i++){
+Button2[i].style.cursor = 'pointer';
+Button2[i].onclick = function() {
+    window.open("https://drive.google.com/file/d/1H-xvnPetcLSY6ba7eWZHBG9jIvXykqbX/view?fbclid=IwZXh0bgNhZW0CMTAAAR36T5zEJK90IgEeT321dkJtzMHnHvdwx279mlXFUQb9hl0VcUTsfPC1Gvc_aem_ZmFrZWR1bW15MTZieXRlcw");
+};}
+
+var Button3 = document.getElementsByClassName("PBT3");
+for(i=0;i<Button2.length;i++){
+Button3[i].style.cursor = 'pointer';
+Button3[i].onclick = function() {
+    window.open("https://www.facebook.com/flagup.flagshipstartupclub");
+};}
 </script>
 </html>
